@@ -1,3 +1,13 @@
+#Scala files
+/bin
+
+#IntelliJ files
+/.idea
+/.settings
+.classpath
+.project
+APsKraper.iml
+
 # Windows image file caches
 Thumbs.db
 ehthumbs.db

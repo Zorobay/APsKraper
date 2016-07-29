@@ -1,4 +1,4 @@
-package drinks
+package functionality.drinks
 
 import functionality.propertyextraction.Extractor
 
@@ -25,7 +25,7 @@ case class Drink(url: String, drinkType: DrinkType.Value, name: String, amount: 
   }
 
   def toArray(): Array[Any] ={
-    Array(url, name, drinkType, amount, size, alc, priceSEK, apSEK)
+    Array(url, name, drinkType, amount, size, alc, priceDKK, apDKK, priceEUR, apEUR, priceSEK, apSEK)
   }
 }
 

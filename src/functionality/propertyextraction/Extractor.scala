@@ -1,6 +1,6 @@
 package functionality.propertyextraction
 
-import drinks.SizeUnit
+import functionality.drinks.SizeUnit
 
 object Extractor {
 

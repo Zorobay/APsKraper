@@ -1,4 +1,4 @@
-package drinks
+package functionality.drinks
 
 object DrinkType extends Enumeration {
   val BEER, CIDER, WINE, SPIRITS, LIQUOR = Value;
